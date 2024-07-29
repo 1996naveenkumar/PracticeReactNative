@@ -5,7 +5,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/practice/PassData/HomeScreen';
 import MessageScreen from './screens/practice/PassData/MessageScreen';
 import { Linking } from 'react-native';
-
 // import  FirebaseAuth  from "./Firebase";
 // import MainComponent from './store/Redux';
 import { Provider } from 'react-redux';
