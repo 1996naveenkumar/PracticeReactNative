@@ -17,3 +17,5 @@ ios/*.xcworkspace
 # IDE
 .idea/
 .vscode/
+services-account.json
+services-account.json/
