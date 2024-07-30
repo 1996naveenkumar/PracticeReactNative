@@ -17,4 +17,6 @@ ios/*.xcworkspace
 # IDE
 .idea/
 .vscode/
+
+# Secret
 .env/

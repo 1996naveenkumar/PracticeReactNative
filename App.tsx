@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/practice/PassData/HomeScreen';
@@ -14,12 +14,20 @@ import DrawerLayout from './screens/practice/Drawer/DrawerLayoutAndroid';
 // import { Store } from 'redux';
 import Permissions from './screens/practice/Permissions&useRef/Permission';
 import LocalNotifi from './screens/practice/Notifications & datePicker/LocalNotifi';
+import Person from './screens/practice/ClassComponent/Class';
+import SplashScreen from 'react-native-splash-screen'
 
 
+useEffect
 
 const Stack = createNativeStackNavigator();
 
 const App = () => {
+  useEffect(() => {
+ 
+    SplashScreen.hide();
+  }, []);
+
   return (
     // <NavigationContainer >
     //   <Stack.Navigator 
@@ -42,7 +50,9 @@ const App = () => {
     // <DrawerLayout/>
     // <FirebaseAuth/>
     // <Permissions/>
-    <LocalNotifi/>
+    // <LocalNotifi/>
+    <Person/>
+    
   );
 }
 
