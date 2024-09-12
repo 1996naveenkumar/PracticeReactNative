@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "153333595143",
+    "project_id": "fir-signin-f782d",
+    "storage_bucket": "fir-signin-f782d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153333595143:android:e2c8860179d9939b367ea2",
+        "android_client_info": {
+          "package_name": "com.practicefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153333595143-qajarhrtdpuan6ol3gi832pncnbidf20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practicefirebase",
+            "certificate_hash": "4a555ae55d3ad4b76d04e17671155ce2c5d5c2a3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFJZYAJ9fkD4pxH2cKbTts02jHzyO8Ax0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153333595143-0mfubnh7354ke2uls6l09u7ehn62erbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
